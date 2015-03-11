@@ -208,12 +208,14 @@ header .bg {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
+  display: none;
 }
 header .shadow {
   position: absolute;
   left: 0;
   width: 100%;
   height: 225px;
+  display: none;
 }
 header .shadow.top {
   top: -55px;
@@ -223,6 +225,7 @@ header .shadow.top {
   background: -moz-linear-gradient(center bottom, transparent 0%, #000000 100%);
   background: -o-linear-gradient(#000000, transparent);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='transparent', GradientType=0);
+  display: none;
 }
 header .spinner {
   -webkit-animation: rotation 2s infinite ease-in-out;
@@ -243,9 +246,11 @@ header .spinner {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
+  display: none;
 }
 header .container {
   padding: 50px 0 50px 0;
+  
 }
 header .container:after {
   visibility: hidden;
@@ -258,6 +263,7 @@ header .container:after {
 header img {
   display: block;
   width: 100%;
+  display: none;
 }
 header img.rainbow {
   position: absolute;
@@ -265,6 +271,7 @@ header img.rainbow {
   left: 0;
   width: 100%;
   height: 2px;
+  display: none;
 }
 header h1 {
   /*font-family: 'Roboto';*/
@@ -275,12 +282,13 @@ header h1 {
   font-size: 1.75rem;
   color: #ffffff;
   /*float: left;*/
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: 0;
   line-height: 1.75rem;
   text-align: center;
   color: #0e3029;
+  padding-top: 100px;
 }
 header h1 a {
   /*color: #ffffff;*/
