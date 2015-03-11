@@ -48,7 +48,8 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #37cca2;
+  /*color: #37cca2;*/
+  color: #0e3029;
 }
 a:hover {
   color: #0e3029;
@@ -94,7 +95,7 @@ a {
   color: #0e3029;
 }
 a:hover {
-  color: #37cca2;
+  /*color: #37cca2;*/
 }
 body {
   padding: 0;
@@ -196,10 +197,11 @@ header {
 }
 header .bg {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 0;
   width: 100%;
   height: 100%;
+  max-height: 350px;
   background: url('') #000000 no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -265,22 +267,28 @@ header img.rainbow {
   height: 2px;
 }
 header h1 {
-  font-family: 'Roboto';
-  font-weight: 700;
+  /*font-family: 'Roboto';*/
+  font-family: 'Tangerine', cursive;
+  /*font-weight: 700;*/
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 1.75rem;
   color: #ffffff;
-  float: left;
+  /*float: left;*/
   width: 50%;
   margin: 0;
   padding: 0;
   line-height: 1.75rem;
+  text-align: center;
+  color: #0e3029;
 }
 header h1 a {
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: #0e3029;
 }
 header h1 a:hover {
-  color: #37cca2;
+  /*color: #37cca2;*/
+  color: #0e3029;
 }
 header ul {
   text-align: right;
