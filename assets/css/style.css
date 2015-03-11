@@ -250,7 +250,10 @@ header .spinner {
 }
 header .container {
   padding: 50px 0 50px 0;
-  
+}
+
+header .container.wide {
+    border-bottom: 2px solid #000;
 }
 header .container:after {
   visibility: hidden;
